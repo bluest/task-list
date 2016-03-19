@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Task Manager - Task Details</title>
+		<link rel = "stylesheet" type = "text/css" href = "css/bootstrap-theme.min.css">
+		<link rel = "stylesheet" type = "text/css" href = "css/bootstrap.min.css">
+		<link rel = "stylesheet" type = "text/css" href = "css/style.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button
+							type="button"
+							class="navbar-toggle collapsed"
+							data-toggle="collapse"
+							data-target="#navbar"
+							aria-expanded="false"
+							aria-controls="navbar">
+						<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Task Manager</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="index.html">
+								<span class="glyphicon glyphicon-list-alt"></span> 
+								Task List
+							</a>
+						</li>
+						<li>
+							<a href="about.html">
+								<span class="glyphicon glyphicon-info-sign"></span> 
+								About
+							</a>
+						</li>
+					</ul>
+				</div>     
+			</div>
+		</nav>
+		<header class="jumbotron">
+            <div class="container">
+                <div class="row-header">
+                    <div class="col-md-offset-2 col-md-2 col-xs-12">
+                        <span style="font-size: 80px;" class="glyphicon glyphicon-list-alt"></span>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <h1>TASK MANAGER</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="main" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Task List</a></li>       
+                        <li class="active">Task Details</li>       
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Task Detail</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img 
+                                 class="task-owner media-object img-thumbnail"
+                                 src="img/grandma.jpg">
+                            <h4>Rita</h4>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">My task</h3>
+                            <span class="label label-success">Complete</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dapibus, leo sed pellentesque hendrerit, ante ante efficitur sem, eu pellentesque ipsum erat vitae sem. Nunc vestibulum finibus sem a efficitur. Nam volutpat, orci et ornare dictum, libero arcu fermentum lacus, at porta nisi felis at massa. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget ante metus. Donec auctor congue tincidunt. Phasellus viverra eu eros sed efficitur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Copyright 2016 - Developed by Bruna</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

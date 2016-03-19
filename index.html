@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Task Manager - Task List</title>
+		<link rel = "stylesheet" type = "text/css" href = "css/bootstrap-theme.min.css">
+		<link rel = "stylesheet" type = "text/css" href = "css/bootstrap.min.css">
+		<link rel = "stylesheet" type = "text/css" href = "css/style.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button
+							type="button"
+							class="navbar-toggle collapsed"
+							data-toggle="collapse"
+							data-target="#navbar"
+							aria-expanded="false"
+							aria-controls="navbar">
+						<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Task Manager</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="index.html">
+								<span class="glyphicon glyphicon-list-alt"></span> 
+								Task List
+							</a>
+						</li>
+						<li>
+							<a href="about.html">
+								<span class="glyphicon glyphicon-info-sign"></span> 
+								About
+							</a>
+						</li>
+					</ul>
+				</div>     
+			</div>
+		</nav>
+		<header class="jumbotron">
+            <div class="container">
+                <div class="row-header">
+                    <div class="col-md-offset-2 col-md-2 col-xs-12">
+                        <span style="font-size: 80px;" class="glyphicon glyphicon-list-alt"></span>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <h1>TASK MANAGER</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="main" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ol class="breadcrumb">
+                        <li class="active">Task List</li>       
+                    </ol>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Task List</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="list-group">
+                        <a href="task-details.html">    
+                            <button
+                                    type="button"
+                                    class="list-group-item">
+                                <span class="badge badge-success">Complete</span>
+                                Do the shopping
+                            </button>
+                        </a>
+                        <a href="task-details.html">
+                            <button 
+                                    type="button" 
+                                    class="list-group-item">
+                                <span class="badge badge-danger">Incomplete</span>
+                                Do the laundry
+                            </button>
+                        </a>
+                        <a href="task-details.html">
+                            <button 
+                                    type="button" 
+                                    class="list-group-item">
+                                <span class="badge badge-success">Complete</span>
+                                Fix the car
+                            </button>
+                        </a>
+                        <a href="task-details.html">
+                            <button 
+                                    type="button" 
+                                    class="list-group-item">
+                                <span class="badge badge-warning">Ongoing</span>
+                                Study for final test
+                            </button>
+                        </a>
+                        <a href="task-details.html">
+                            <button 
+                                    type="button" 
+                                    class="list-group-item">
+                                <span class="badge badge-danger">Incomplete</span>
+                                Do the dishes
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Copyright 2016 - Developed by Bruna</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
